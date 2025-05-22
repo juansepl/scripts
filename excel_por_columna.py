@@ -1,3 +1,17 @@
+# 
+# Script para separar filas de un archivo excel por los valores encontrados en una columna
+#
+# 1. Crear ambiente virtual:
+# python -m venv venv
+# source venv/bin/activate
+# 
+# 2. Instalar dependencias:
+# pip install pandas openpyxl
+# 
+# 3. Correr script:
+# python ruta/a/archivo/excel_por_columna.py
+# 
+
 import pandas as pd
 import os
 
